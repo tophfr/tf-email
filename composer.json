@@ -1,0 +1,20 @@
+{
+    "name": "tf/email",
+    "type": "library",
+    "description": "A very old PHP class to send emails. You should use phpmailer or swiftmail instead.",
+    "homepage": "http://lib.tf",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "toph",
+            "email": "toph@toph.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.2.6"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
